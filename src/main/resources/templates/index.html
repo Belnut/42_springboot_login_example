@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>ReactJS + Spring Data REST</title>
+    </head>
+    <body>
+        <div id="react"></div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="/posts/save" role="button" class="btn btn-primary">글 등록</a>
+                    <div th:if="${userName != null}">
+                        Logged in as: <span id="user"><p th:text="${userName}"></p></span>
+                        <a href="/logout" role="button">Logout</a>
+                    </div>
+                    <div th:if="${userName == null}">
+                        <a href="/oauth2/authorize/intra42" role="button">42 Login</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </body>
+</html>
