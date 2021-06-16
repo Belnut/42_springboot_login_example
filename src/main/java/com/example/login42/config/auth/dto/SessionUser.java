@@ -1,6 +1,6 @@
-package com.example.login_42_tester.config.auth.dto;
+package com.example.login42.config.auth.dto;
 
-import com.example.login_42_tester.domain.user.User;
+import com.example.login42.domain.user.User;
 import lombok.Getter;
 
 import java.io.Serializable;

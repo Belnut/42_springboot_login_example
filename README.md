@@ -1,6 +1,14 @@
 # Getting Started
+* This project is for 42 OAuth in Spring Boot. This is forked from https://github.com/Belnut/42_springboot_login_example.
+* Register App in https://profile.intra.42.fr/oauth/applications
+* Set up `UID42`, `SECRET42` environment variables, used in `resources/application.properties`
+* Run app, check http://localhost:8080
 
-### Reference Documentation
+```
+./mvnw spring-boot:run
+```
+
+## Reference Documentation
 
 For further reference, please consider the following sections:
 
@@ -11,7 +19,7 @@ For further reference, please consider the following sections:
 * [Spring Web Services](https://docs.spring.io/spring-boot/docs/2.5.0/reference/htmlsingle/#boot-features-webservices)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.0/reference/htmlsingle/#boot-features-developing-web-applications)
 
-### Guides
+## Guides
 
 The following guides illustrate how to use some features concretely:
 
@@ -19,4 +27,3 @@ The following guides illustrate how to use some features concretely:
 * [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-

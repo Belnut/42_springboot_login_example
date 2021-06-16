@@ -1,4 +1,4 @@
-package com.example.login_42_tester.payroll;
+package com.example.login42.payroll;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

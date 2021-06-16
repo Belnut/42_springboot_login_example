@@ -1,4 +1,4 @@
-package com.example.login_42_tester.controller;
+package com.example.login42.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.example.login_42_tester.config.auth;
+package com.example.login42.config.auth;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

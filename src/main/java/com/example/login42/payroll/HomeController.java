@@ -1,7 +1,7 @@
-package com.example.login_42_tester.payroll;
+package com.example.login42.payroll;
 
-import com.example.login_42_tester.config.auth.LoginUser;
-import com.example.login_42_tester.config.auth.dto.SessionUser;
+import com.example.login42.config.auth.LoginUser;
+import com.example.login42.config.auth.dto.SessionUser;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +12,7 @@ public class HomeController {
     public String index(Model model, @LoginUser SessionUser user) {
         if (user != null) {
             model.addAttribute("userName", user.getName());
+            model.addAttribute("user", user);
         }
         return "index";
     }

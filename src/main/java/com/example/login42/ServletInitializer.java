@@ -1,4 +1,4 @@
-package com.example.login_42_tester;
+package com.example.login42;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

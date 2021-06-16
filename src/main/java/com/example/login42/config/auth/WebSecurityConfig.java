@@ -1,6 +1,6 @@
-package com.example.login_42_tester.config.auth;
+package com.example.login42.config.auth;
 
-import com.example.login_42_tester.domain.user.Role;
+import com.example.login42.domain.user.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
