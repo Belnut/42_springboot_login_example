@@ -1,9 +1,9 @@
-package com.example.login_42_tester.config.auth;
+package com.example.login42.config.auth;
 
-import com.example.login_42_tester.config.auth.dto.OAuthAttributes;
-import com.example.login_42_tester.config.auth.dto.SessionUser;
-import com.example.login_42_tester.domain.user.User;
-import com.example.login_42_tester.domain.user.UserRepository;
+import com.example.login42.config.auth.dto.OAuthAttributes;
+import com.example.login42.config.auth.dto.SessionUser;
+import com.example.login42.domain.user.User;
+import com.example.login42.domain.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;

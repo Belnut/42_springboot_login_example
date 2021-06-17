@@ -1,9 +1,8 @@
-package com.example.login_42_tester;
+package com.example.login42;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class Login42TesterApplicationTests {
 
     @Test

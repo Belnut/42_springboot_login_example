@@ -1,6 +1,6 @@
-package com.example.login_42_tester.config.auth;
+package com.example.login42.config.auth;
 
-import com.example.login_42_tester.config.auth.dto.SessionUser;
+import com.example.login42.config.auth.dto.SessionUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Component;

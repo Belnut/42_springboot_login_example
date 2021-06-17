@@ -1,4 +1,4 @@
-package com.example.login_42_tester.domain.user;
+package com.example.login42.domain.user;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

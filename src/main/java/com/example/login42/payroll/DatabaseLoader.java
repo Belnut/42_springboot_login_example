@@ -1,4 +1,4 @@
-package com.example.login_42_tester.payroll;
+package com.example.login42.payroll;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

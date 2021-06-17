@@ -3,6 +3,13 @@
     <head>
         <meta charset="UTF-8"/>
         <title>ReactJS + Spring Data REST</title>
+        <style>
+.profile {
+    width: 200px;
+    border: 1px solid #888;
+    border-radius: 30px;
+}
+        </style>
     </head>
     <body>
         <div id="react"></div>
@@ -11,7 +18,8 @@
                 <div class="col-md-6">
                     <a href="/posts/save" role="button" class="btn btn-primary">글 등록</a>
                     <div th:if="${userName != null}">
-                        Logged in as: <span id="user"><p th:text="${userName}"></p></span>
+                        Logged in as: <span id="user" th:text="${userName}"></span>
+                        <p><img th:src="${user.getPicture()}" th:alt="${userName}" class="profile"></p>
                         <a href="/logout" role="button">Logout</a>
                     </div>
                     <div th:if="${userName == null}">
